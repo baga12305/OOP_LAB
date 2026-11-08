@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class LevelGoals
+public class LevelGoals : ILevelGoalTracker
 {
     private readonly Goal[] _goals; // Агрегация: контейнер хранит ссылки на цели
     private int _count;
